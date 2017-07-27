@@ -25,5 +25,15 @@
         android:layout_centerHorizontal="true"
         android:layout_above="@id/edit_text"/>
 
+    <Button
+        android:id = "@+id/connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "CONNECT"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:onClick="connect"/>
+
 
 </RelativeLayout>
